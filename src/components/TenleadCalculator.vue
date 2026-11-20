@@ -6,8 +6,9 @@
 
 <script setup>
 import { ref } from "vue";
-import { useStore } from "vuex";
+// import { useStore } from "vuex";
 
+// const store = useStore();
 const inputValue = ref(0);
 const result = ref(null);
 
